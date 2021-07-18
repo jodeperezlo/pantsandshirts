@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PANTS&SHIRTS</title>
+    <meta name="description" content="Página Web sobre ropa">
+
+    <!-- Prefetch -->
+    <link rel="prefetch" href="camisas.html" as="document">
+
+    <!-- Agregando estilos -->
+    <!-- Preload -->
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <link rel="preload"
+        href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap"
+        crossorigin="crossorigin" as="font">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="contenedor">
+            <div class="barra">
+                <a href="index.html" class="logo">
+                    <h1 class="logo__nombre no-margin centrar-texto">PANTS&<span class="logo__bold">SHIRTS</span></h1>
+                </a>
+
+                <nav class="navegacion">
+                    <a href="camisas.html" class="navegacion__enlace">Camisas</a>
+                    <a href="pantalones.html" class="navegacion__enlace">Pantalones</a>
+                    <a href="contacto.html" class="navegacion__enlace">Contacto</a>
+                </nav>
+            </div>
+        </div>
+        <div class="header__texto">
+            <h2 class="no-margin">PANTS & SHIRTS STORE</h2>
+            <p class="no-margin">Elige el mejor estilo en pantalones y camisas. La moda pasa de moda; el estilo jamás.
+            </p>
+        </div>
+    </header>
+
+    <div class="contenedor contenido-principal">
+        <h3 class="centrar-texto">Nuestros Productos</h3>
+        <main class="principal">
+            <article class="producto-principal">
+                <div class="producto-principal__imagen">
+                    <picture>
+                        <source loading="lazy" srcset="img/shirt1.webp" type="image/webp">
+                        <img loading="lazy" src="img/shirt1.jpg" alt="Imagen Shirt">
+                    </picture>
+                </div>
+                <div class="producto-principal__contenido">
+                    <h4 class="no-margin">Shirt</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis labore at ut esse soluta, tenetur
+                        laborum dolore corporis mollitia distinctio quaerat architecto temporibus quibusdam nulla odio
+                        eligendi ipsa vitae molestias.
+                    </p>
+                    <a href="#" class="boton boton--primario">Conocer Producto</a>
+                </div>
+            </article> <!-- Artículo de entrada-->
+            <article>
+                <div class="producto-principal__imagen">
+                    <picture>
+                        <source loading="lazy" srcset="img/pants1.webp" type="image/webp">
+                        <img src="img/pants1.jpg" alt="Imagen Pants">
+                    </picture>
+                </div>
+                <div class="producto-principal__contenido">
+                    <h4 class="no-margin">Pants</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis labore at ut esse soluta, tenetur
+                        laborum dolore corporis mollitia distinctio quaerat architecto temporibus quibusdam nulla odio
+                        eligendi ipsa vitae molestias.
+                    </p>
+                    <a href="#" class="boton boton--primario">Conocer Producto</a>
+                </div>
+            </article>
+        </main>
+    </div> <!-- Contenido principal -->
+
+    <div class="contenedor sobre-nosotros">
+        <h3 class="centrar-texto">Acerca de Pants&Shirts</h3>
+
+        <div class="dos-columnas">
+            <div class="nosotros acerca">
+                <h4>Sobre nosotros</h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est voluptates similique iusto. Possimus
+                    ut cum qui eaque accusamus nam totam deserunt perspiciatis atque. Beatae expedita iusto nihil quis
+                    assumenda in.
+                </p>
+            </div>
+            <div class="mision acerca">
+                <h4>Misión</h4>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium nihil ab ea quam, perspiciatis
+                    sit deleniti rerum beatae eveniet corporis nesciunt alias magnam nisi nam enim, unde possimus qui
+                    officiis.
+                </p>
+            </div>
+            <div class="vision acerca">
+                <h4>Visión</h4>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi quas, officiis repudiandae explicabo
+                    accusantium, itaque laboriosam quisquam facere debitis maiores, deleniti dicta ducimus veritatis!
+                    Odio ullam aperiam veniam tempore magnam?
+                </p>
+            </div>
+            <div class="valores acerca">
+                <h4>Valores</h4>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. At, quas saepe cupiditate sit laudantium
+                    vel corrupti distinctio aliquam voluptatum, assumenda deserunt veritatis. Laboriosam rerum libero
+                    veritatis tenetur impedit earum fuga.
+                </p>
+            </div>
+        </div>
+    </div> <!-- Contenido sobre nosotros -->
+
+    <footer class="footer">
+        <div class="contenedor">
+            <div class="barra">
+                <a href="index.html" class="logo">
+                    <h1 class="logo__nombre no-margin centrar-texto">PANTS&<span class="logo__bold">SHIRTS</span></h1>
+                </a>
+
+                <nav class="navegacion">
+                    <a href="camisas.html" class="navegacion-footer__enlace">Camisas</a>
+                    <a href="pantalones.html" class="navegacion-footer__enlace">Pantalones</a>
+                    <a href="contacto.html" class="navegacion-footer__enlace">Contacto</a>
+                </nav>
+            </div>
+        </div>
+        <div class="footer__texto">
+            <p>
+                Todos los derechos reservados 2021. &copy;
+            </p>
+        </div>
+    </footer>
+
+    <script src="js/modernizr.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>

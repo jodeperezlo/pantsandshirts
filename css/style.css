@@ -1,0 +1,364 @@
+:root {
+  --fuenteHeading: "PT Sans", sans-serif;
+  --fuenteParrafos: "Open Sans", sans-serif;
+
+  --primario: #784d3c;
+  --gris: #c1c1c1;
+  --blanco: #fff;
+  --negro: #000;
+}
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; /*1rem = 10px*/
+}
+*,
+*:before,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  font-family: var(--fuenteParrafos);
+  font-size: 1.6rem;
+  line-height: 2;
+}
+/* Globales */
+.contenedor {
+  width: min(90%, 120rem);
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--fuenteHeading);
+  line-height: 1.2;
+}
+h1 {
+  font-size: 4.8rem;
+}
+h2 {
+  font-size: 4rem;
+}
+h3 {
+  font-size: 3.2rem;
+}
+h4 {
+  font-size: 2.8rem;
+}
+img {
+  max-width: 100%;
+}
+/* Utilidades */
+.no-margin {
+  margin: 0;
+}
+.no-padding {
+  padding: 0;
+}
+.centrar-texto {
+  text-align: center;
+}
+.sombra {
+  -webkit-box-shadow: 0 5px 5px -4px rgb(0 0 0 / 53%);
+  -moz-box-shadow: 0 5px 5px -4px rgba(0, 0, 0, 0.53);
+  box-shadow: 0 5px 5px -4px rgb(0 0 0 / 53%);
+}
+/* Header */
+.webp .header {
+  background-image: url(../img/banner.webp);
+}
+.no-webp .header {
+  background-image: url(../img/banner.jpg);
+}
+.header {
+  height: 60rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.header__texto {
+  text-align: center;
+  color: var(--blanco);
+  margin-top: 5rem;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.header__texto {
+  font-weight: bold;
+}
+
+@media (min-width: 768px) {
+  .header__texto {
+    margin-top: 15rem;
+  }
+}
+
+.barra {
+  padding-top: 4rem;
+}
+
+@media (min-width: 768px) {
+  .barra {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+/* Logo */
+.logo {
+  color: var(--blanco);
+}
+.logo__nombre {
+  font-weight: normal;
+}
+.logo__bold {
+  font-weight: bold;
+}
+/* Navegación */
+.navegacion__enlace {
+  display: block;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 900;
+  border-bottom: 0.2rem solid transparent;
+  transition: all 0.5s;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: var(--blanco);
+}
+@media (min-width: 768px) {
+  .navegacion {
+    display: flex;
+    gap: 2rem;
+  }
+  .navegacion__enlace {
+    background-color: transparent;
+    color: var(--negro);
+  }
+}
+
+/* Contenido principal */
+@media (min-width: 768px) {
+  .principal {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
+  }
+  .navegacion__enlace:hover {
+    border-bottom: 0.2rem solid var(--negro);
+  }
+}
+
+/* Propiedades para las imágenes del index */
+.producto-principal__imagen {
+  max-height: 40rem;
+  text-align: center;
+}
+.producto-principal__imagen img {
+  max-height: 38rem;
+}
+
+.boton {
+  display: inline-block;
+  font-family: var(--fuenteHeading);
+  color: var(--blanco);
+  text-align: center;
+  padding: 1rem 3rem;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  transition: all 0.5s;
+  border: none;
+}
+
+.boton:hover {
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .boton {
+    display: inline-block;
+  }
+}
+
+.boton--primario {
+  background-color: var(--negro);
+  border: 0.1rem solid;
+}
+
+.boton--primario:hover {
+  color: var(--negro);
+  background-color: var(--blanco);
+  border: 0.1rem solid var(--negro);
+}
+
+.boton--secundario {
+  background-color: var(--primario);
+  border: 0.1rem solid;
+}
+
+.boton--secundario:hover {
+  color: var(--primario);
+  background-color: var(--blanco);
+  border: 0.1rem solid var(--primario);
+}
+
+/* Acerca de la empresa */
+@media (min-width: 768px) {
+  .dos-columnas {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
+  }
+}
+
+.acerca {
+  padding: 2rem;
+  margin: 2rem;
+  background-color: #333333;
+  color: #fff;
+  border: 0.1rem solid #333;
+  transition: all 0.5s;
+}
+
+.dos-columnas div:hover {
+  color: #333333;
+  background-color: #fff;
+  cursor: default;
+}
+
+/* Footer */
+.footer {
+  background-color: var(--negro);
+  padding-bottom: 3rem;
+  margin-top: 4rem;
+}
+
+.navegacion-footer__enlace {
+  display: block;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: var(--blanco);
+  border-bottom: 0.2rem solid transparent;
+  transition: all 0.5s;
+}
+
+.footer__texto {
+  color: var(--blanco);
+  text-align: center;
+}
+
+/* Contacto */
+.contacto-bg {
+  background-image: url(../img/contacto.jpg);
+  height: 40rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.formulario {
+  background-color: var(--blanco);
+  margin: -15rem auto 0 auto;
+  width: 95%;
+  padding: 5rem;
+}
+
+.campo {
+  margin-bottom: 2rem;
+}
+.campo__label {
+  flex: 0 0 9rem;
+  text-align: right;
+  padding-right: 2rem;
+}
+.campo__field--textarea {
+  height: 20rem;
+  resize: none;
+  width: 100%;
+}
+.campo__field {
+  border: 0.1rem solid var(--gris);
+  outline: none;
+  width: 100%;
+}
+.campo__file {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--blanco);
+  background-color: var(--negro);
+  cursor: pointer;
+  padding: 1.5rem;
+  text-transform: uppercase;
+  width: 100%;
+  text-align: center;
+  opacity: 0.8;
+}
+@media (min-width: 768px) {
+  .campo {
+    display: flex;
+  }
+  .campo__field {
+    flex: 1;
+  }
+  .campo__file {
+    flex: 1;
+    font-size: 1.3rem;
+  }
+}
+
+.error {
+  background-color: rgb(185, 0, 0);
+  text-align: center;
+  padding: 1rem;
+  color: var(--blanco);
+  text-transform: uppercase;
+}
+.correcto {
+  background-color: rgb(74, 185, 0);
+  text-align: center;
+  padding: 1rem;
+  color: var(--blanco);
+  text-transform: uppercase;
+}
+
+/* Camisas */
+.producto {
+  margin: 1rem;
+}
+.producto__imagen {
+  margin: 0 auto;
+  max-width: 28rem;
+  max-height: 28rem;
+}
+.producto__imagen img {
+  width: 100%;
+  height: 100%;
+}
+
+.producto__texto span {
+  font-weight: bold;
+}
+
+@media (min-width: 630px) {
+  .productos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+}
+
+@media (min-width: 944px) {
+  .productos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+
+  .navegacion-footer__enlace:hover {
+    border-bottom: 0.2rem solid var(--blanco);
+  }
+}
