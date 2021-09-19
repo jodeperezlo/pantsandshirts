@@ -1,11 +1,73 @@
-# pantsandshirts
+# Pants And Shirts
 
-Página Web Sobre una tienda de pantalones y camisas.
+Web page about a pants and shirts store. The website has a form validated with JS.
+
+This page was developed from scratch, using only HTML, CSS and JS technologies.
+
+# Author
+
+## Ing. Jorge de Jesus Perez Lopez.
+
+### Visit my web portfolio to see more projects and find more information: [Web Portfolio](https://portfolio-jorgeperez.netlify.app/)
+
+The original idea for the page was taken from the Udemy Complete Web Development course with Professor Juan de la Torre.
+Subsequently, indications of a school task were taken, and it was adapted to what the teacher requested.
+
+The images were taken from [Google](https://google.com)
+
+# Copy Right &copy;
+
+The sale of this project, or the disclosure for profit, is prohibited. This project was not developed with monetary intentions, otherwise, the corresponding measures will be taken in accordance with current law.
+
+Likewise, it is prohibited to use this material to integrate it into courses, or videos where they obtain money in exchange.
+
+The material can be disseminated and used for learning and school purposes.
+When using the material, it must be clarified where it was taken from, giving credits to **author Jorge de Jesus Perez Lopez**, and leaving the necessary resource to locate it, the web portfolio for example found at: **https: / /portfolio-jorgeperez.netlify.app/**
+
+<br/>
+
+---
+
+`Versión en Español`
+
+---
+
+<br/>
+
+# Pants And Shirts
+
+Página Web acerca de una tienda de pantalones y camisas. La página web cuenta con un formulario validado con JS.
+
+Esta página fue desarrollada desde cero, utilizando únicamente las tecnologías HTML, CSS y JS.
 
 # Autor
 
-Jorge de Jesús Pérez López.
-La idea original de la página fue tomada del curso de Udemy Desarrollo Web Completo con el profesor Juan de la torre.
+## Ing. Jorge de Jesús Pérez López.
+
+### Visita mi portafolio web para ver más proyectos y encontrar más información: [Portafolio Web](https://portfolio-jorgeperez.netlify.app/)
+
+La idea original de la página fue tomada del curso de Udemy Desarrollo Web Completo con el profesor Juan de la Torre.
 Posteriormente, se tomaron indicaciones de una tarea escolar, y se adaptó a lo que el profesor solicitaba.
 
-Las imágenes fueron tomadas de google.
+Las imágenes fueron tomadas de [Google](https://google.com)
+
+# Copy Right &copy;
+
+Queda prohibido vender este proyecto, o la divulgación con fines de lucro. Este proyecto no fue desarrollado con intenciones monetarias, de lo contrario, se tomarán las medidas correspondientes conforme a la ley vigente.
+
+Así mismo, queda prohibido utilizar este material para integrarlo a cursos, o videos donde obtengan dinero a cambio.
+
+El material puede ser divulgado y utilizado con fines de aprendizaje y escolares.
+Al utilizar el material, se debe aclarar de dónde fue tomado, dando créditos al **autor Jorge de Jesús Pérez López**, y dejando el recurso necesario para localizarlo, el portafolio web por ejemplo que se encuentra en: **https://portfolio-jorgeperez.netlify.app/**
+
+<br/>
+
+---
+
+## Contact
+
+### [GitHub](https://github.com/jodeperezlo)
+
+### [LinkedIn](https://www.linkedin.com/in/jorge-de-jes%C3%BAs-p%C3%A9rez-l%C3%B3pez-140343216/)
+
+### Find my contact email on my website [Jorge Perez Portfolio](https://portfolio-jorgeperez.netlify.app/).
