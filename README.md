@@ -22,7 +22,7 @@ The sale of this project, or the disclosure for profit, is prohibited. This proj
 Likewise, it is prohibited to use this material to integrate it into courses, or videos where they obtain money in exchange.
 
 The material can be disseminated and used for learning and school purposes.
-When using the material, it must be clarified where it was taken from, giving credits to **author Jorge de Jesus Perez Lopez**, and leaving the necessary resource to locate it, the web portfolio for example found at: **https: / /portfolio-jorgeperez.netlify.app/**
+When using the material, it must be clarified where it was taken from, giving credits to **author Jorge de Jesus Perez Lopez**, and leaving the necessary resource to locate it, the web portfolio, for example, found at: **https: / /portfolio-jorgeperez.netlify.app/**
 
 <br/>
 
@@ -58,7 +58,7 @@ Queda prohibido vender este proyecto, o la divulgación con fines de lucro. Este
 Así mismo, queda prohibido utilizar este material para integrarlo a cursos, o videos donde obtengan dinero a cambio.
 
 El material puede ser divulgado y utilizado con fines de aprendizaje y escolares.
-Al utilizar el material, se debe aclarar de dónde fue tomado, dando créditos al **autor Jorge de Jesús Pérez López**, y dejando el recurso necesario para localizarlo, el portafolio web por ejemplo que se encuentra en: **https://portfolio-jorgeperez.netlify.app/**
+Al utilizar el material, se debe aclarar de dónde fue tomado, dando créditos al **autor Jorge de Jesús Pérez López**, y dejando el recurso necesario para localizarlo, el portafolio web, por ejemplo, que se encuentra en: **https://portfolio-jorgeperez.netlify.app/**
 
 <br/>
 
