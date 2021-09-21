@@ -10,10 +10,10 @@ This page was developed from scratch, using only HTML, CSS and JS technologies.
 
 ### Visit my web portfolio to see more projects and find more information: [Web Portfolio](https://portfolio-jorgeperez.netlify.app/)
 
-The original idea for the page was taken from the Udemy Complete Web Development course with Professor Juan de la Torre.
+The basic idea of the page was inspired by the [Udemy](https://www.udemy.com/) course taught by the professor [Juan de la Torre](https://codigoconjuan.com/). The course can be found below, [Complete Web Development](https://www.udemy.com/share/101r3q3@SpMf2RizY8JP8F6hsQ9yjEfsyYGn9UqSLVdvpTfHtu-0zovrhALQdV9ryU9HeVBLNA==/).
 Subsequently, indications of a school task were taken, and it was adapted to what the teacher requested.
 
-The images were taken from [Google](https://google.com)
+The images were taken from [Unsplash](https://unsplash.com/).
 
 # Copy Right &copy;
 
@@ -46,10 +46,10 @@ Esta página fue desarrollada desde cero, utilizando únicamente las tecnología
 
 ### Visita mi portafolio web para ver más proyectos y encontrar más información: [Portafolio Web](https://portfolio-jorgeperez.netlify.app/)
 
-La idea original de la página fue tomada del curso de Udemy Desarrollo Web Completo con el profesor Juan de la Torre.
+La idea base de la página fue inspirada en el curso de [Udemy](https://www.udemy.com/) impartido por el profesor [Juan de la Torre](https://codigoconjuan.com/). El curso lo puede encontrar a continuación, [Desarrollo Web Completo](https://www.udemy.com/share/101r3q3@SpMf2RizY8JP8F6hsQ9yjEfsyYGn9UqSLVdvpTfHtu-0zovrhALQdV9ryU9HeVBLNA==/).
 Posteriormente, se tomaron indicaciones de una tarea escolar, y se adaptó a lo que el profesor solicitaba.
 
-Las imágenes fueron tomadas de [Google](https://google.com)
+Las imágenes fueron tomadas de [Unsplash](https://unsplash.com/).
 
 # Copy Right &copy;
 
@@ -58,6 +58,7 @@ Queda prohibido vender este proyecto, o la divulgación con fines de lucro. Este
 Así mismo, queda prohibido utilizar este material para integrarlo a cursos, o videos donde obtengan dinero a cambio.
 
 El material puede ser divulgado y utilizado con fines de aprendizaje y escolares.
+
 Al utilizar el material, se debe aclarar de dónde fue tomado, dando créditos al **autor Jorge de Jesús Pérez López**, y dejando el recurso necesario para localizarlo, el portafolio web, por ejemplo, que se encuentra en: **https://portfolio-jorgeperez.netlify.app/**
 
 <br/>
